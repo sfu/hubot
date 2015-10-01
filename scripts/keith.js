@@ -1,5 +1,12 @@
 module.exports = function(robot) {
-  robot.respond(/^keith me$/i, function(res) {
-    res.send('https://imgflip.com/i/rws2v');
+  robot.respond(/(keith|beef) me/i, function(res) {
+    var images = {
+      keith: 'https://i.imgflip.com/rws2v.jpg',
+      beef: 'https://i.imgflip.com/rwskl.jpg'
+    };
+    var image = images[res.match[1]];
+    res.send(image);
   });
 };
+
+
