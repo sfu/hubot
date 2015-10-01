@@ -1,5 +1,5 @@
 module.exports = function(robot) {
-  robot.respond(/(keith|beef) me/i, function(res) {
+  robot.hear(/(keith|beef) me/i, function(res) {
     var images = {
       keith: 'https://i.imgflip.com/rws2v.jpg',
       beef: 'https://i.imgflip.com/rwskl.jpg'
