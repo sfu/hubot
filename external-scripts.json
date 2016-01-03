@@ -6,7 +6,7 @@
   "hubot-pugme",
   "hubot-maps",
   "hubot-redis-brain",
-  "hubot-redis-brain-inspect",
+  "hubot-brain-inspect",
   "hubot-reload-scripts",
   "hubot-rules",
   "hubot-shipit"
